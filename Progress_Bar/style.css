@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Frankin gothic Medium','Arial Narrow', 'sans-serif';
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #ffff;
+}
+.progress-bar{
+    background-color: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    border-radius: 5px;
+    height: 10px;
+    width: 0%;
+}
+
+.progress-bar div span{
+    height: 4Opx;
+    width: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HTML{
+    background: #e91e63;
+    animation: HTML 1s linear forwards;
+}
+.CSS{
+    background: #cddc39;
+    animation: CSS 1s linear forwards; 
+}
+.Javascript{
+    background: #00bcd4;
+    animation: Javascript 1s linear forwards; 
+}
+.Python{
+    background: #ffeb3b;
+    animation: Python 1s linear forwards; 
+}
+.Angular{
+    background: #9c27b0;
+    animation: Angular 1s linear forwards; 
+}
+.HTML span{
+    border: 1px solid #e91e63;
+}
+.CSS span{
+    border: 1px solid #cddc39;
+}
+.Javascript span{
+    border: 1px solid #00bcd4;
+}
+.Python span{
+    border: 1px solid #ffeb3b;
+}
+.Angular span{
+    border: 1px solid #9c27b0;
+}
+
+@keyframes HTML{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes CSS{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes Javascript{
+    100%{
+        width: 45%;
+    }
+}
+@keyframes Python{
+    100%{
+        width: 15%;
+    }
+}
+@keyframes Angular{
+    100%{
+        width: 69%;
+    }
+}
